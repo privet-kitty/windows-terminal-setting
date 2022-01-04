@@ -89,13 +89,6 @@
                 "source": "Windows.Terminal.Azure"
             },
             {
-                "commandline": "cmd.exe /c \"set MSYSTEM=MINGW64&& set MSYS=winsymlinks:nativestrict&& C:/msys64/usr/bin/bash.exe --login\"",
-                "guid": "{5381b480-a456-45da-b9a4-7f1d871d6374}",
-                "icon": "C:/msys64/mingw64.ico",
-                "name": "MSYS2 MinGW 64-bit",
-                "startingDirectory": "C:/Users/hugo"
-            },
-            {
                 "guid": "{34a13805-9b56-5e89-9234-f02de44bd971}",
                 "name": "PowerShell 7 (x86)",
                 "source": "Windows.Terminal.PowershellCore"
