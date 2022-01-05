@@ -1,18 +1,7 @@
 {
     "$schema": "https://aka.ms/terminal-profiles-schema",
-    "copyFormatting": "none",
-    "copyOnSelect": false,
-    "defaultProfile": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
-    "initialCols": 110,
-    "initialRows": 32,
-    // Add custom keybindings to this array.
-    // To unbind a key combination from your defaults.json, set the command to "unbound".
-    // To learn more about keybindings, visit https://aka.ms/terminal-keybindings
-    "keybindings": 
+    "actions": 
     [
-        // Copy and paste are bound to Ctrl+Shift+C and Ctrl+Shift+V in your defaults.json.
-        // These two lines additionally bind them to Ctrl+C and Ctrl+V.
-        // To learn more about selection, visit https://aka.ms/terminal-selection
         {
             "command": 
             {
@@ -25,15 +14,10 @@
             "command": "paste",
             "keys": "ctrl+v"
         },
-        // Press Ctrl+Shift+F to open the search box
         {
             "command": "find",
             "keys": "ctrl+shift+f"
         },
-        // Press Alt+Shift+D to open a new pane.
-        // - "split": "auto" makes this pane open in the direction that provides the most surface area.
-        // - "splitMode": "duplicate" makes the new pane use the focused pane's profile.
-        // To learn more about panes, visit https://aka.ms/terminal-panes
         {
             "command": 
             {
@@ -48,12 +32,20 @@
             "keys": "ctrl+w"
         }
     ],
+    "copyFormatting": "none",
+    "copyOnSelect": false,
+    "defaultProfile": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
+    "initialCols": 110,
+    "initialRows": 32,
     "profiles": 
     {
         "defaults": 
         {
             "colorScheme": "One Half Dark",
-            "fontFace": "Myrica MM"
+            "font": 
+            {
+                "face": "Myrica MM"
+            }
         },
         "list": 
         [
@@ -87,11 +79,6 @@
                 "hidden": false,
                 "name": "Azure Cloud Shell",
                 "source": "Windows.Terminal.Azure"
-            },
-            {
-                "guid": "{34a13805-9b56-5e89-9234-f02de44bd971}",
-                "name": "PowerShell 7 (x86)",
-                "source": "Windows.Terminal.PowershellCore"
             }
         ]
     },
