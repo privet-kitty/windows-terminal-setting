@@ -3,6 +3,10 @@
     "actions": 
     [
         {
+            "command": "unbound",
+            "keys": "win+sc(41)"
+        },
+        {
             "command": 
             {
                 "action": "copy",
@@ -13,6 +17,13 @@
         {
             "command": "paste",
             "keys": "ctrl+v"
+        },
+        {
+            "command": 
+            {
+                "action": "quakeMode"
+            },
+            "keys": "win+@"
         },
         {
             "command": "find",
