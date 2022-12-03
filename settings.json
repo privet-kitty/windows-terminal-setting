@@ -4,6 +4,14 @@
     "actions": 
     [
         {
+            "command": "find",
+            "keys": "ctrl+shift+f"
+        },
+        {
+            "command": "paste",
+            "keys": "ctrl+v"
+        },
+        {
             "command": 
             {
                 "action": "copy",
@@ -12,16 +20,12 @@
             "keys": "ctrl+c"
         },
         {
+            "command": "closePane",
+            "keys": "ctrl+w"
+        },
+        {
             "command": "unbound",
             "keys": "win+sc(41)"
-        },
-        {
-            "command": "paste",
-            "keys": "ctrl+v"
-        },
-        {
-            "command": "find",
-            "keys": "ctrl+shift+f"
         },
         {
             "command": 
@@ -38,10 +42,6 @@
                 "splitMode": "duplicate"
             },
             "keys": "alt+shift+d"
-        },
-        {
-            "command": "closePane",
-            "keys": "ctrl+w"
         }
     ],
     "copyFormatting": "none",
